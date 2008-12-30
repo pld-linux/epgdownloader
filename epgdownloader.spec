@@ -8,6 +8,7 @@ Group:		Applications/Multimedia
 Source0:	http://dl.sourceforge.net/epgdownloader/%{name}-%{version}.tgz
 # Source0-md5:	8aeff68a55fb659422fc2cdf53fef144
 URL:		http://epgdownloader.sourceforge.net
+BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
