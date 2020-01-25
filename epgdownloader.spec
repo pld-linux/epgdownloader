@@ -1,4 +1,3 @@
-%include        /usr/lib/rpm/macros.perl
 Summary:	EpgDownloader is a written in perl, plugin based programme guide converter
 Name:		epgdownloader
 Version:	0.7.2
